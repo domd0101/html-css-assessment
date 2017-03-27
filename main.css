@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+body{
+  background-image: url('./img/main-bg.jpeg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  font-family: 'Baloo Bhaina', cursive;
+  color: #FFF;
+}
+/*+++++Menu Bar+++++++*/
+.navbar{
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: white;
+  font-size: 25px;
+}
+.navbar2{
+  position: relative;
+  display: none;
+  color: white;
+  font-size: 25px;
+  height: 50px;
+}
+.menu{
+  position: absolute;
+  height: 47px;
+  width: 47px;
+  display: none;
+}
+.tweet{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+  right: 30%;
+  display: none;
+}
+.fb{
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  margin-top: 10px;
+  right: 22%;
+  display: none;
+}
+@media (max-width:700px){
+  .navbar{
+    display: none;
+  }
+  .navbar2{
+    display: flex;
+  }
+  .menu{
+    display: flex;
+  }
+  .tweet{
+    display: flex;
+  }
+  .fb{
+    display: flex;
+  }
+}
+
+/*++++Other stuff++++*/
+.center{
+  margin-top: 10%;
+  height: 200px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1{
+  font-size:90px;
+  display: flex;
+  justify-content: center;
+}
+h3{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.bottomdiv{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 6%;
+}
+.bottom img{
+  display: flex;
+  width: 50%;
+}
+
+
+
+
+/*++++++++END+++++++++++*/
